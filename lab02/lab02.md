@@ -61,8 +61,19 @@
 (https://www.postman.com/downloads) и приложите соответствующие скрины, на которых указаны
 запросы и ответы со стороны сервиса для **всех** его операций.
 
-#### Демонстрация работы
-todo
+#### Демонстрация работы (я сразу сделал вместе со вторым заданием)
+1) `POST /product`
+![img.png](images/img.png)
+2) `GET /product/{product_id}`
+![img_1.png](images/img_1.png)
+3) `PUT /product/{product_id}`
+![img_2.png](images/img_2.png)
+4) `DELETE /product/{product_id}`
+![img_3.png](images/img_3.png)
+5) `GET /products`
+![img_4.png](images/img_4.png)
+![img_5.png](images/img_5.png)
+![img_6.png](images/img_6.png)
 
 ### Задание В (4 балла)
 Пусть ваш продукт также имеет иконку (небольшую картинку). Формат иконки (картинки) может
@@ -84,7 +95,11 @@ todo
 ```
 
 #### Демонстрация работы
-todo
+Postman не дает мне послать картинку (ни png, ни ipeg), так что я не знаю как продемонстрировать работу
+![img_7.png](images/img_7.png)
+в form-data не атачится(((
+
+нигде не атачится(((
 
 ---
 
