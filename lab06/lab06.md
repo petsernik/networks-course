@@ -53,23 +53,29 @@
 1. После всех установок запускаем FileZilla server, нажимаем configure
 
 ![filezilla1.jpg](screenshoots%2Ffilezilla%2Ffilezilla1.jpg)
+
 2. Убеждаемся, что слушаем на порте 21
 
 ![filezilla2.jpg](screenshoots%2Ffilezilla%2Ffilezilla2.jpg)
+
 3. Переходим в Users, добавляем TestUser: для этого нажимаем кнопку ```Add``` в столбце ```Available users```,
 затем монтируем пути: нажимаем ```Add``` в ```mount points``` и вводим к чему хотим дать доступ. Сохраняем конфиг
 
 ![filezilla3.jpg](screenshoots%2Ffilezilla%2Ffilezilla3.jpg)
+
 4. Запускаем FileZilla client, переходим в ```Файл > Менеджер сайтов```
 
 ![filezilla4.jpg](screenshoots%2Ffilezilla%2Ffilezilla4.jpg)
+
 5. Нажимаем ```новый сайт```, вводим хост, вводим порт, вводим пользователя в режиме интерактив, 
 нажимаем ```соединиться```
 
 ![filezilla5.jpg](screenshoots%2Ffilezilla%2Ffilezilla5.jpg)
+
 6. Видим удаленный сайт с ожидаемым каталогом, снизу видим, что там лежит заранее заготовленный файл ```Test.txt```
 
 ![filezilla6.jpg](screenshoots%2Ffilezilla%2Ffilezilla6.jpg)
+
 7. С помощью правой кнопки мыши можем создавать каталоги/файлы/редактировать файлы
 
 ![filezilla7.jpg](screenshoots%2Ffilezilla%2Ffilezilla7.jpg)
@@ -96,19 +102,23 @@
 с помощью клиента). 
 
 ![1.jpg](screenshoots%2Fpython_FTP_client%2F1.jpg)
+
 2. Изначально у меня в директории со скриптом нет кроме него ничего, но как видно со скрина, 
 я создаю FTP-соединение, вывожу в консоль все файлы с удаленного сервера, а уже затем создаю хранилище ```store```,
 где буду хранить файлы для клиента. Запустим же скрипт! :)
 
 ![2.jpg](screenshoots%2Fpython_FTP_client%2F2.jpg)
+
 3. После запуска скрипта у меня появилось два файла в ```store``` один ```Test.txt``` -- его удалось скачать,
 другой ```Example.txt``` -- его мы создали сами, он должен загрузиться на сервер.
 
 ![3.jpg](screenshoots%2Fpython_FTP_client%2F3.jpg)
+
 4. Посмотрим что вывелось в лог: видим, что файлы и каталоги с сервера вывелись все. Более того, после загрузки файла
 на сервер там теперь на один файл больше, так что это успех, всё работает. 
 
 ![4.jpg](screenshoots%2Fpython_FTP_client%2F4.jpg)
+
 5. Можно даже открыть хранилище сервера и увидеть этот файл там, хотя по пункту 4 и так это было понятно.
 
 ![5.jpg](screenshoots%2Fpython_FTP_client%2F5.jpg)
