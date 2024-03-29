@@ -1,0 +1,6 @@
+GET /gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file2.html HTTP/1.1 - 200
+ - 400
+GET /gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file3.html HTTP/1.1 - 502
+GET /blocked.site HTTP/1.1 - 502
+ - 400
+ - 400
